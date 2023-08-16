@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>predicted Car</title>
+</head>
+<body>
+    <div class="container">
+        <h1>The predicted result is a car model.</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <button id="convertButton">Predict</button>
+        <div id="resultContainer">
+            
+            <!-- <textarea id="base64Output" readonly></textarea> -->
+            <h1 id="predictcar"></h1>
+        </div>
+        <div id="imagePreviewContainer"> <!-- Add this container -->
+            <h2>Image Preview:</h2>
+            <img id="imagePreview" src="#" alt="Image Preview">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
